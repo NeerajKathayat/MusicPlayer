@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="container" >
+        <div class="navbar">
+            <img src="img&music/logo.png" alt="">
+        </div>
+    </nav>
+
+    <section class="content">
+        <h1>THE<br> REAL<br> SOUND</h1>
+        <div class="music-container">
+           <h2 id="title">INFINITY</h2>
+           <h3 id="artist">Jaymes Young</h3>
+           <div class="img-container">
+               <img src="img&music/Infinity.jpg" id="circle" alt="">
+           </div>
+          
+           <audio src="img&music/Infinity.mp3"></audio>
+           
+           <div class="progressbar-container" id="progress-container">
+               <div class="progress-duration-meter">
+                   <div id="current_time">0:00</div>
+                   <div id="duration">3:30</div>
+               </div>
+               <div class="progress-div" id="progress-div">
+                   <div class="progress" id="progress">
+
+                   </div>
+               </div>
+           </div>
+
+
+           <div class="music-control">
+               <i class="fas fa-backward" id="Prev" title="Previous"></i>
+               <i class="fas fa-play main-button" id="Play" title="Play"></i>
+               <i class="fas fa-forward" id="next" title="Next"></i>
+           </div>
+        </div>
+        
+        
+    </section>
+
+    <script src="script.js"></script>
+   
+    
+   
+</body>
+</html>
